@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/card_van.css">
     <link rel="stylesheet" href="../assets/css/menuburger.css">
     <link rel="stylesheet" href="./assets/css/driver-page.css">
     <link rel="stylesheet" href="./assets/css/sua_van.css">
@@ -26,7 +27,7 @@
         <div class="background">
             <header>
                 <div class="logo-container">
-                    <a class="logo_container" href="../index.html">
+                    <a class="logo_container" href="./index.html">
                         <div class="logo-content">
                             <div class="ball">
                                 <span class="material-symbols-outlined">
@@ -74,13 +75,43 @@
                 </div>
         </div>
     </section>
-    <section class="sua-van">
+    <section class="sua-van" id="sua-van">
         <div class="circle-container">
-            <div class="circle-rotate">
-                <div class="circle1"></div>
-                <div class="sua_van-container">
-                    <div class="van-title">
-                        <p class="vanbora-title3" id="vanbora-title3">Sua va</p>
+            <div class="content-container-van" id="content-container-van">
+                <div class="circle-rotate">
+                    <div class="sua_van-container">
+                        <div class="van-title">
+                            <p class="vanbora-title3" id="vanbora-title3">Sua van</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-van" id="card-van">
+                    <div class="img-van" id="img-van"><img id="img" src="./assets/img/van.png" alt=""></div>
+                    <div class="all-infos" id="all-infos">
+                        <div class="numero-button">
+                            <div class="numero-vagas">
+                                <span class="titulo-numero" id="titulo-numero">Número de Vagas</span>
+                                <span class="numero" id="numero">16</span>
+                            </div>
+                            <div class="button-contrato">
+                                <button class="button" id="button">
+                                    <a class="contrato" id="contrato" href="*">Ver Contrato</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="info-van">
+                            <div class="modelo-van" id="modelo-van">
+                                <span class="titulo-modelo" id="titulo-modelo">Modelo de Vans</span>
+                                <span class="modelo-model" id="modelo-model">Renault Master</span>
+                            </div>
+                            <div class="placa-van">
+                                <span class="titulo-placa" id="titulo-placa">Placa da Van</span>
+                                <span class="placa-van-dgt" id="placa-van-dgt">BEE4R22</span>
+                            </div>
+                            <div class="nota-motorista">
+                                <img class="avaliar-motorista" src="./assets/img/Avaliação motorista.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,9 +121,9 @@
     </main>
 
     <footer>
-        <div class="social-container">
-            <div class="social">
-                <p class="contact">Contate-nos</p>
+        <div class="social-container" id="social-container">
+            <div class="social" id="social">
+                <p class="contact" id="contact">Contate-nos</p>
                 <div id="wie-container">
                     <img src="./assets/img/WhatsApp.png" alt="">
                     <p>WhatsApp</p>
@@ -108,7 +139,7 @@
             </div>
         </div>
         <div class="copyright-container">
-            <p class="copy">© Copyright 2021 - Vanbora</p>
+            <p class="copy" id="copy">© Copyright 2021 - Vanbora</p>
         </div>
         <div class="address-container">
             <p class="address">Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP 06.020-902</p>

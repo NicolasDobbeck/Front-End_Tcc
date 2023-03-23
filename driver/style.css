@@ -16,7 +16,6 @@ header{
     height: 10vh;
     padding-left: 2vw;
     padding-right: 2vw;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +39,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     height: 70vh;
 }
 
@@ -65,15 +63,8 @@ header{
     font-size: 10rem;
     font-family: 'Poppins';
     text-shadow: #2e2e2e6b 2px 4px 4px;
-    position: absolute;
-    left: 36%;
-    margin-top: -50%;
 }
 
-.vanbora-title3::after{
-    color: #E0B441;
-    content: 'n';
-}
 
 .vanbora-subtitle-mensage{
     color: white;
@@ -81,7 +72,10 @@ header{
     font-weight: bold;
 }
 
-
+.all-infos{
+    display: flex;
+    flex-direction: row;
+}
 
 @media (max-width: 865px){
 
@@ -99,6 +93,83 @@ header{
         color: white;
         font-size: 1.2rem;
         font-weight: bold;
+    }
+
+    .background{
+        width: 100%;
+    }
+
+    #vanbora-title3 {
+        font-size: 4.0rem;
+    }
+
+    .address{
+        display: none;
+    }
+
+    #modelo-van{
+        display: none;
+    }
+
+    #all-infos{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #card-van{
+        width: 500px;
+        height: 300px;
+    }
+
+    #titulo-numero, #titulo-placa{
+        font-size: 20px;
+    }
+
+    #numero{
+        font-size: 25px;
+    }
+
+    .avaliar-motorista{
+        width: 200px;
+        height: 29px;
+    }
+
+    #img{
+        width: 170px;
+        height: 170px;
+    }
+
+    #button{
+        width: 160px;
+        height: 40px;
+        padding: 0;
+    }
+
+    #contrato{
+        font-size: 20px;
+        margin-left: 8px;
+    }
+
+    #sua-van{
+        background-position: 0;
+    }
+
+    #contact{
+        font-size: 40px;
+    }
+    
+    #social{
+        width: auto;
+    }
+
+    #social-container{
+        justify-content: center;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .text-container{
@@ -120,5 +191,43 @@ header{
     }
     .menu-burguer-container.show ~ .text-container{
         transform: translate(0);
+    }
+
+    @media (max-width: 412px){
+        #card-van{
+            flex-direction: column;
+            width: 300px;
+            height: 430px;
+        }
+
+        #all-infos{
+            gap: 10px;
+        }
+
+        #content-container-van{
+            gap: 20px;
+        }
+
+        #titulo-placa{
+            font-size: 20px;
+        }
+
+        #img-van{
+            display: flex;
+            justify-content: center;
+        }
+
+        #copy{
+            font-size: 20px;
+        }
+
+        #contact{
+            font: 15px;
+        }
+
+        footer{
+            height: 400px;
+            
+        }
     }
 }

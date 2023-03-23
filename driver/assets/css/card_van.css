@@ -1,0 +1,106 @@
+@import url(./reset.css);
+
+.card-van{
+    display: flex;
+    width: 1200px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+
+.numero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.numero-vagas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.numero{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.titulo-numero{
+    font-size: 2.0rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #E0B441;
+}
+
+.info-van{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.modelo-van{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-modelo{
+    font-size: 2.0rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #E0B441;
+}
+
+.modelo-model{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.placa-van{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-placa{
+    font-size: 2.0rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #E0B441;
+}
+
+.placa-van-dgt{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: var(--main-yellow);
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: .5rem 3.5rem;
+    border-radius: 10px;
+    box-shadow: 10px 8px 0 1px black;
+    transition: .2s;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateX(10px);
+    transform: translateY(5px);
+}
+
+.avaliar-motorista{
+    cursor: pointer;
+}

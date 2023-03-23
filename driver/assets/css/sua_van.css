@@ -1,3 +1,9 @@
+.sua-van {
+    background: url("../img/bola.png") no-repeat;
+    background-size: cover;
+    background-position: -50% 40%;
+}
+
 .vanbora-title4 {
     color: #E0B441;
 }
@@ -6,27 +12,18 @@
     color: white;
 }
 
-.circle1 {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #E0B441;
-    clip-path: circle(1530px at left);
-}
-
 .circle-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .circle-rotate {
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
 }
 
 .sua_van-container {
@@ -37,6 +34,14 @@
 .van-title {
     display: flex;
     z-index: 100;
+}
+
+.content-container-van{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .localization-container {
@@ -53,6 +58,7 @@ footer {
 
 .social-container {
     display: flex;
+    
 }
 
 .social {
@@ -92,6 +98,7 @@ footer {
 .address {
     font-size: 1.5rem;
 }
+
 
 
 @media (max-width: 1291px) {
